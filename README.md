@@ -1,2 +1,2 @@
-# BITS-F464-Assignments
-Assignments completed under the course BITS F464 Machine Learning
+# BITS F464 Machine Learning Assignments
+Assignments completed under the coursework BITS F464 Machine Learning
