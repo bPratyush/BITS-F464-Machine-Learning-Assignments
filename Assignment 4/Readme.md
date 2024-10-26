@@ -22,11 +22,11 @@ This project implements a machine learning solution to predict diabetes using a 
    ```bash
    git clone https://github.com/username/diabetes-prediction.git
 2. Navigate to project directory
-   - cd diabetes-prediction
+   ```cd diabetes-prediction
 4. Create virtual environment (Optional)
-   - python -m venv venv
-   - source venv/bin/activate
+   ```python -m venv venv
+   ```source venv/bin/activate
 5. Run ipynb file for model training on Google Collab or Jupyter Notebook
 6. Start the Flask backend
-   - python3 app.py
+   ```python3 app.py
    - The API will run on http://127.0.0.1:5000
