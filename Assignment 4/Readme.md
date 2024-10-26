@@ -30,6 +30,7 @@ This project implements a machine learning solution to predict diabetes using a 
    source venv/bin/activate
 5. Run ipynb file for model training on Google Collab or Jupyter Notebook
 6. Start the Flask backend
-   - The API will run on http://127.0.0.1:5000
    ```bash
    python3 app.py
+   ```
+   The API will run on http://127.0.0.1:5000
