@@ -27,7 +27,6 @@ This project implements a machine learning solution to predict diabetes using a 
 4. Create virtual environment (Optional)
    ```bash
    python -m venv venv
-   ```bash
    source venv/bin/activate
 5. Run ipynb file for model training on Google Collab or Jupyter Notebook
 6. Start the Flask backend
