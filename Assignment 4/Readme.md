@@ -15,7 +15,6 @@ This project implements a machine learning solution to predict diabetes using a 
 - scikit-learn
 - pandas
 - numpy
-- requests
 
 ## Installation Steps
 1. Clone the repository:
