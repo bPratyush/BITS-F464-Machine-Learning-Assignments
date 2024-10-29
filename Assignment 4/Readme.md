@@ -1,7 +1,7 @@
 # Diabetes Prediction Using Machine Learning
 
 ## Overview
-This project implements a machine learning solution to predict diabetes using a dataset that includes features such as Glucose, Insulin, BMI, and Age. It utilizes two models, **Naive Bayes** and **Perceptron**, to demonstrate classification capabilities. The results can help understand the relationship between the input features and the likelihood of diabetes.
+This project implements a machine learning solution to predict diabetes using a dataset that includes features such as Glucose, Insulin, BMI, and Age. It utilizes two models, **Naive Bayes** and **Perceptron** (along with custom Perceptron implementation), to demonstrate classification capabilities. The results can help understand the relationship between the input features and the likelihood of diabetes.
 
 ## Features
 - **Two Machine Learning Models**: Implements Naive Bayes and Perceptron models for classification.
@@ -15,7 +15,6 @@ This project implements a machine learning solution to predict diabetes using a 
 - scikit-learn
 - pandas
 - numpy
-- requests
 
 ## Installation Steps
 1. Clone the repository:
