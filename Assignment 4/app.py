@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 import warnings
-warnings.filterwarnings("ignore") #Rectify Warning (DOESN'T AFFECT RESULTS SO I SUPPRESSED IT)
+warnings.filterwarnings("ignore") 
 
 class CustomPerceptron:
     def __init__(self, learning_rate=0.01, n_iters=1000):
