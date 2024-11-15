@@ -23,7 +23,6 @@ df.info()
 
 df.head()
 
-## OUTLIER DETECTION AND REMOVAL : NOT ASKED SO NOT DONE !!
 # # Calculate Q1 and Q3
 # Q1 = df[['Glucose', 'Insulin', 'BMI', 'Age']].quantile(0.25)
 # Q3 = df[['Glucose', 'Insulin', 'BMI', 'Age']].quantile(0.75)
@@ -84,8 +83,6 @@ class_report_perceptron = classification_report(y_test, y_pred_perceptron)
 print("Perceptron Model Accuracy:", accuracy_perceptron)
 print("Confusion Matrix:\n", conf_matrix_perceptron)
 print("Classification Report:\n", class_report_perceptron)
-
-#TODO : Highlight Strengths and Weaknesses
 
 with open('naive_bayes_model.pkl', 'wb') as nb_file:
     pickle.dump(naive_bayes_model, nb_file)
