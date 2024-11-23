@@ -1,0 +1,16 @@
+### Observations ###
+
+1. Overfitting Issues:
+Analyzing the training and validation curves, it can be observed whether there is a gap between training and validation loss/accuracy, indicating overfitting.
+Adding a Dropout layer with rate 0.4 can further reduce overfitting by increasing regularization.
+
+2. Share Structure Property:
+The CNN architecture uses shared convolutional kernels that extract features irrespective of the position of the feature in the image.
+
+3. Invariance Property:
+The pooling layers ensure translational invariance by reducing the sensitivity of the network to small spatial shifts in the input images.
+
+4. Recommendations:
+- Consider adding another Dropout layer (rate 0.4) after the convolutional layers to address overfitting.
+- Use techniques like data augmentation (rotation, flipping, scaling) to improve the model's generalization.
+- Experiment with different optimizer hyperparameters for further improvement.
